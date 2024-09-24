@@ -1,12 +1,28 @@
+$text: hsla(0, 0%, 0%, 0.8);
+$background: #ffffff;
+$button: #0071e3;
+$primaryLight: #F5FCCD;
+$secondaryDark: #419197;
+$secondaryLight: #78D6C6;
+$lightGray: rgb(243, 243, 243);
+$darkGray: rgb(229, 229, 229);
+$shadow: rgba(85, 85, 85, 0.789);
+$vibrant1: #79E0EE;
+$vibrant2: #F11A7B;
+
+
 p {
   font-family: var(--roboto-font);
-  font-size: 18px;
+  font-size: 18px; 
 }
 
 h1 {
   font-family: var(--bebas-font);
-  font-size: 30px;
+  font-size: 30px; 
 }
+
+
+
 
 img, picture, video, canvas, svg {
   display: block;
@@ -27,8 +43,8 @@ html, body {
 }
 
 body {
-  line-height: 1, 5;
-  -webkit-font-smoothing: antialiased;
+  line-height: 1,5;
+  -webkit-font-smoothing: antialiased;  
 }
 
 input, button, textarea, select {
@@ -37,4 +53,5 @@ input, button, textarea, select {
 
 p, h1, h2, h3, h4, h5 {
   overflow-wrap: break-word;
-}/*# sourceMappingURL=globals.css.map */
+}
+
